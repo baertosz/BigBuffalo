@@ -1,0 +1,106 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('img/bgfood.png');
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-color: #a00606; 
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgb(94, 0, 0),
+    rgba(94, 0, 0) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 27px;
+  color: #ffffff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center; 
+}
+
+.nav-links a img {
+  width: 45px;
+  height: 45px;
+  margin-right: 8px;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.paper-sheet {
+  background-color: #f9f6f1;
+  border: 1px solid #ccc;
+  padding: 40px;
+  margin: 80px auto;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-box {
+  text-align: center;
+}
+
+.text-box h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  color: #a00606;
+}
+
+.text-box p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #333333;
+}
+  /*you are not allowed to copy my unique style remember it.*/
